@@ -1,7 +1,7 @@
 
 local GUI = require("GUI")
 local filesystem = require("Filesystem")
-local paths = require("Paths")
+local paths = require("Libraries.Paths")
 local system = require("System")
 
 --------------------------------------------------------------------

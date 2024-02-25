@@ -3,7 +3,7 @@ local GUI = require("GUI")
 local event = require("Event")
 local filesystem = require("Filesystem")
 local system = require("System")
-local paths = require("Paths")
+local paths = require("Libraries.Paths")
 local text = require("Text")
 
 local network = {}

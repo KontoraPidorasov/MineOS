@@ -5,7 +5,7 @@ local color = require("Color")
 local keyboard = require("Keyboard")
 local event = require("Event")
 local GUI = require("GUI")
-local paths = require("Paths")
+local paths = require("Libraries.Paths")
 local text = require("Text")
 local number = require("Number")
 

@@ -595,7 +595,7 @@ local function drawText(x, y, textColor, text, transparency)
 
 		for i = 1, charWlen do
 			if x >= drawLimitX1 and x + charWlen - 1 <= drawLimitX2 then
-				if transparency then
+				if transparency and newFrameBackgrounds and newFrameBackgrounds[screenIndex] ~= nil then
 					newFrameForegrounds[screenIndex] = colorBlend(newFrameBackgrounds[screenIndex], textColor, transparency)
 				else
 					newFrameForegrounds[screenIndex] = textColor

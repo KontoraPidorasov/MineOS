@@ -1,5 +1,5 @@
 
-local paths = require("Paths")
+local paths = require("Libraries.Paths")
 local event = require("Event")
 
 --------------------------------------------------------------------------------

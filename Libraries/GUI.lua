@@ -4,7 +4,7 @@ local event = require("Event")
 local color = require("Color")
 local image = require("Image")
 local screen = require("Screen")
-local paths = require("Paths")
+local paths = require("Libraries.Paths")
 local text = require("Text")
 local number = require("Number")
 
